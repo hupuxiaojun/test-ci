@@ -10,6 +10,6 @@ public class MyController {
 
     @RequestMapping("/hello/{name}")
     public Object sayHello(@PathVariable("name") String name) {
-        return "hello " + name;
+        return "new hello " + name;
     }
 }
